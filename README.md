@@ -1,7 +1,7 @@
 # RangeFC: Temporal Fact Checking with Year-Range Prediction
 
 <p align="center">
-  %<img src="" width="220">
+  <img src="logo.png" width="220">
 </p>
 
 <p align="center">
