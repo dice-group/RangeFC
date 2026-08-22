@@ -8,6 +8,8 @@
   <b>Predicting coherent validity intervals for knowledge graph assertions.</b>
 </p>
 
+<p align="center"> Accepted at <b>ISWC 2026</b> </p>
+
 RangeFC is an interval-aware temporal fact-checking framework that predicts the start and end years of validity for a given knowledge graph assertion ((s,p,o)). The model extends the TemporalFC codebase with a relation-aware Mixture-of-Experts architecture, a shared calendar representation, coupled boundary prediction, and overlap-aware training.
 
 ## Highlights
@@ -117,10 +119,22 @@ python main.py \
   --band_margin 1.5763792105820356
 ```
 
+## Authors
+
+This work was developed by the authors of the RangeFC paper:
+
+**Abdullah Qamar**, **Umair Qudus**, **Michael Röder**, **Axel-Cyrille Ngonga Ngomo**
+
 ## Acknowledgement
 
 RangeFC builds upon the open-source [TemporalFC](https://github.com/dice-group/TemporalFC) codebase. We thank the TemporalFC authors for making their implementation publicly available.
 
-## Citation
+## Paper and Citation
 
-Citation information for the RangeFC paper will be added here.
+This repository contains the implementation accompanying the paper:
+
+**“RangeFC: Temporal Fact Checking with Year-Range Prediction”**
+Accepted at the **25th International Semantic Web Conference (ISWC 2026)**.
+
+The official paper link, DOI, and BibTeX citation will be added once the proceedings are available.
+
